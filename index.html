@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script type="text/javascript" src="classes.js"></script>
+    <script type="text/javascript" src="seeds.js"></script>
+    <script type="text/javascript" src="display.js"></script>
+    <script type="text/javascript" src="game.js"></script>
+
+    <link href="style.css" rel="stylesheet">
+    <title>Elus justiciables</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Elus justiciables</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#"
+              >Acceuil <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="#">A propos</a>
+            <a class="nav-item nav-link" href="#">A venir</a>
+            <a class="nav-item nav-link" href="#">Contact</a>
+
+          </div>
+        </div>
+      </nav>
+
+      <div class="jumbotron">
+        <h1 class="display-4">There is no justice, there is just us.</h1>
+        <p class="lead">
+          Révisez votre culture politique à travers un quizz !
+        </p>
+
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#" role="button"
+            >Lancer le quizz</a
+          >
+          <!-- <button type="button" class="btn btn-outline-primary btn-lg" onclick="Seeds()">Seeds</button> -->
+        </p>
+      </div>
+
+      <div class="infoBox">
+        <h3>Commandes dispo :</h3>
+        <ul>
+          <li>let b = peopleList[0]</li>
+          <li>b.Facts() : renvoi la liste des facts pour un people</li>
+          <li>let c = factList[0]</li>
+          <li>c.People : renvoi la personne associée au fact</li>
+        </ul>
+      </div>
+      
+      <div class="gameBox">
+        <h3>GameBox</h3>
+        <!-- <button type="button" class="btn btn-outline-primary btn-lg" onclick="RandomPeople()">Get Random People</button> -->
+        <button type="button" class="btn btn-outline-primary btn-lg" onclick="RandomFact()">Get Random Fact</button>
+
+      <!-- <div class="randompeople"></div> -->
+      <div class="randomfact"></div>
+      </div>
+
+      <div class="testBox">
+        <h3>TestBox</h3>
+        <button type="button" class="btn btn-outline-primary btn-lg" onclick="Seeds()">Seeds</button>
+
+        <div class="peopleBox"></div>
+        <div class="factBox"></div>
+        <div class="matchBox"></div>
+      </div>
+
+      
+
+
+
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+.jumbotron {
+margin-top: 30px;
+}
+
+.testBox {
+    background-color: lightgrey;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+
+}
+
+.peopleBox {
+border: 1 px black solid;
+}
+
+.factBox {
+
+}
+
+.matchBox {
+
+}
+
+.gameBox {
+    background-color: lightgrey;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+    text-align: center;
+
+    padding: 20px;
+}
+
+.infoBox {
+    background-color: lightgrey;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
